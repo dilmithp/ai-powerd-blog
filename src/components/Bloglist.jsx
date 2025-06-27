@@ -4,7 +4,7 @@ import {motion} from 'motion/react'
 import BlogCard from "./BlogCard.jsx";
 
 const Bloglist = () => {
-    const [menu, setMenu] = useState('all');
+    const [menu, setMenu] = useState('All');
     return (
         <div>
             <div className={'flex justify-center gap-4 sm:gap-8 my-10 relative'}>
