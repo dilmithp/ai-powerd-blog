@@ -4,6 +4,7 @@ import Footer from "../components/Footer.jsx";
 import {useParams} from "react-router-dom";
 import {assets, blog_data, comments_data} from "../assets/assets.js";
 import Moment from 'moment';
+import Loader from "../components/Loader.jsx";
 
 const Blog = () => {
     const {id} = useParams();
@@ -39,7 +40,7 @@ const Blog = () => {
                 <img src={data.image} alt="blog" className={'rounded-3xl mb-5'}/>
                 <div className={'rich-text max-w-3xl mx-auto'} dangerouslySetInnerHTML={{ __html: data.description }} />
 
-                {/* Comments Section */}
+                {/* Comments.jsx Section */}
                 <div className={'mt-14 mb-10 max-w-3xl mx-auto'}>
                     <p className={'font-semibold mb-4'}>Comments ({comments.length})</p>
                     <div className={'flex flex-col gap-4 '}>
@@ -80,6 +81,6 @@ const Blog = () => {
             </div>
             <Footer/>
         </div>
-    ): <div> Loading... </div>
+    ): <Loader/>
 }
 export default Blog
