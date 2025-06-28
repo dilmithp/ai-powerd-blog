@@ -1,8 +1,11 @@
 import React from 'react'
 
 const ListBlog = () => {
+
     return (
-        <div>ListBlog</div>
+        <div>
+
+        </div>
     )
 }
 export default ListBlog
