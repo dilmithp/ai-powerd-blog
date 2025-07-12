@@ -16,6 +16,10 @@ app.use(express.json());
 app.get('/', (req, res) => res.send("API Working"));
 app.use('/api/admin', adminRoutes);
 app.use('/api/blog', blogRoutes);
+app.use('/ai-blog', express.static(path.join(__dirname, '../client/dist')));
+app.get('/ai-blog/*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
