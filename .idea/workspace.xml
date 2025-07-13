@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971614f4-794c-4c6d-b034-0e7cc705a4e2" name="Changes" comment="connect with backend">
-      <change afterPath="$PROJECT_DIR$/client/vercel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -112,7 +117,7 @@
       <workItem from="1752329505662" duration="3257000" />
       <workItem from="1752334918246" duration="795000" />
       <workItem from="1752379504869" duration="99000" />
-      <workItem from="1752379622558" duration="2608000" />
+      <workItem from="1752379622558" duration="3895000" />
     </task>
     <task id="LOCAL-00001" summary="backend dev">
       <option name="closed" value="true" />
@@ -138,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752379566116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connect with backend">
+      <option name="closed" value="true" />
+      <created>1752384795761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752384795761</updated>
+    </task>
+    <task id="LOCAL-00005" summary="connect with backend">
+      <option name="closed" value="true" />
+      <created>1752384842084</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752384842084</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
