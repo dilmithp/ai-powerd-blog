@@ -8,8 +8,7 @@ const Footer = () => {
                 <div>
                     <img src={assets.logo} alt={'logo'} className={'w-32 sm:w-44'} />
                     <p className={'max-w-[480px] mt-6'}>
-                        At ST Carpet Cleaning, your satisfaction is our top priority. We are dedicated to providing exceptional cleaning services that go above and beyond your expectations.
-                    </p>
+                        Welcome to my personal blog — a space where I share my journey as a Software Engineering student, explore web development, cloud tools, and document real-world projects and learning experiences. Whether you're a fellow tech enthusiast or just curious, you're always welcome here.                    </p>
                 </div>
                 <div className={'flex flex-warp justify-between w-full md:w-[45%] gap-5'}>
                     {footer_data.map((section, index) => (
@@ -27,7 +26,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <p className={'py-4 text-center text-sm md:text-base text-gray-500'}>Copyright 2025 © stcarpetcleaning.ca All Right Reserved.</p>
+            <p className={'py-4 text-center text-sm md:text-base text-gray-500'}>Copyright 2025 © Dilmith Pathirana All Right Reserved.</p>
 
         </div>
     )
