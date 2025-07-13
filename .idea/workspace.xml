@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971614f4-794c-4c6d-b034-0e7cc705a4e2" name="Changes" comment="connect with backend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
@@ -111,6 +112,7 @@
       <workItem from="1752232876953" duration="15627000" />
       <workItem from="1752286028359" duration="3928000" />
       <workItem from="1752329505662" duration="3257000" />
+      <workItem from="1752334918246" duration="795000" />
     </task>
     <task id="LOCAL-00001" summary="backend dev">
       <option name="closed" value="true" />
